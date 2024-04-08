@@ -1,0 +1,42 @@
+body {
+    background-image: url(background-assignment.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+.artist {
+    font-size: 12px;
+    width: 350px;
+    margin: 0 auto;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.lyrics {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+    padding-bottom: 120px;
+}
+
+.lyrics p {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.post-chorus {
+    font-size: 13px;
+    color: #404040;
+}
