@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+    line-height: 1.6;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.texts {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texts h1 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.texts p {
+    margin: 20px 0 50px 0;
+    font-size: 20px;
+}
+
+ul {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 50px 40px;
+}
+
+ul li h2 {
+    margin: 30px 0 15px;
+    font-size: 22px;
+}
+
+ul li p.name {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
