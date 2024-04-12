@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    color: #444;
+    line-height: 1.6;
+}
+
+.nav {
+    margin-top: 100px;
+    display: flex;
+}
+
+.nav .testimonial {
+    width: 500px;
+    margin-right: auto;
+}
+
+.testimonial h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btns {
+    padding-top: 70px;
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+button.next {
+    border: 1px solid #666;
+    background-color: #666;
+    color: #fff;
+}
+
+button:hover {
+    background-color:#eee ;
+}
+
+button.next:hover {
+    background-color: #888;
+}
+
+
+.contents {
+    background-color: #eee;
+    border-radius: 30px;
+    display: flex;
+    gap: 80px;
+}
+
+img {
+    width: 500px;
+    border-radius: 30px 0 0 30px;
+}
