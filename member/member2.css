@@ -76,6 +76,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin-bottom: 50px;
 }
 
 .list li .social i {
